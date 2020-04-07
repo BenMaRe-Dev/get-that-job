@@ -1,0 +1,149 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Overpass", sans-serif;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 75px;
+}
+.testimonials img {
+  align-self: center;
+  padding-bottom: 8px;
+  background-color: #ffffff;
+}
+.quote {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1141px;
+  margin: auto;
+  padding: 0px;
+}
+.quote img {
+  transform: translateY(-20px);
+}
+.quote q {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: bold;
+  margin: 0px 102px 0px 102px;
+}
+.legend p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #000000;
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Overpass", sans-serif;
+  width: 100%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 142px;
+  background-color: #f7fafc;
+}
+.information {
+  display: block;
+  text-align: left;
+}
+.information span {
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.08333px;
+  color: #999999;
+}
+.information h1 {
+  font-size: 46px;
+  line-height: 64px;
+  letter-spacing: -1.5px;
+  color: #000000;
+}
+.information h2 {
+  font-size: 15px;
+  line-height: 32px;
+  color: #000000;
+}
+.contact-data {
+  margin-top: 172px;
+}
+.contact-data a,
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #000000;
+}
+.information a {
+  text-decoration: none;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form #email,
+#name,
+#message {
+  background: #ffffff;
+  border: 1px solid #c9ccd4;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.7px;
+  color: #7a7a7a;
+  padding-left: 24px;
+}
+.contact-form #email,
+#name {
+  height: 60px;
+  width: 495px;
+  margin-bottom: 16px;
+}
+.contact-form #message {
+  height: 150px;
+  width: 495px;
+  padding-top: 13px;
+  margin-bottom: 19px;
+}
+.contact-form button {
+  height: 60px;
+  width: 197px;
+  background-color: #000000;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.fa-envelope {
+  padding-right: 18px;
+}
+@media screen and (max-width: 768px) {
+  .contact-data {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 60px 0px 85px 15px;
+    background-color: #f7fafc;
+  }
+
+  .contact-form #email,
+  #name,
+  #message {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #7a7a7a;
+    padding-left: 16px;
+  }
+}
