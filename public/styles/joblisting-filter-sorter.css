@@ -1,4 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+.joblisting-menu {
+  font-family: "Nunito", sans-serif;
+  background-color: #f7fafc;
+}
 
+.joblisting-menu-inputs {
+  max-width: 1031px;
+  margin: auto;
+  display: flex;
+}
 
+.joblisting-menu-btn {
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #4a5568;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+  border-style: none;
+  margin-right: 1%;
+}
 
+.joblisting-input-search {
+  display: flex;
+  width: 27.45%;
+  margin-right: 1%;
+  align-items: baseline;
+}
+
+.input-img {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.job-search {
+  border: none;
+  margin-left: 13.51px;
+  margin-top: 5%;
+  vertical-align: super;
+}
+.country-btn {
+  display: flex;
+  flex-direction: column;
+  width: 10.08%;
+  margin-right: 1%;
+  position: relative;
+}
+.btn-filter {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-arrow-down {
+  margin-left: 20%;
+}
+
+.type-btn {
+  width: 8.2%;
+}
+
+.salary-btn {
+  width: 13.3%;
+}
+
+.experience-btn {
+  width: 11.7%;
+}
+
+.recommended-btn {
+  width: 13%;
+  margin-right: 0px;
+  margin-left: 12%;
+}
+.recommended-filter {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 4%;
+}
+
+.country-list {
+  list-style: none;
+  width: 100%;
+  position: absolute;
+  top: 109%;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-left: 10%;
+  padding-top: 9%;
+  transform: scaleY(0);
+  transform-origin: top center;
+}
+
+.recommended-list {
+  left: 8%;
+}
+
+.country-list-item {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 11%;
+}
+
+.country-btn:hover .menu-arrow-down {
+  transform: rotate(180deg);
+  transition: 0.5s ease-in;
+}
+
+.country-btn:hover > .country-list {
+  transform: scaleY(1);
+  transition: 0.5s ease-in;
+}
+
+.recommended-filter:hover .menu-arrow-down2 {
+  transform: rotate(180deg);
+  transition: 0.5s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+    .joblisting-menu-btn {
+        font-size: 10px;
+    }
+
+    .recommended-filter {
+        font-size: 10px;
+    }
+
+    .country-list-item {
+        font-size: 9px;
+    }
+
+    .recommended-btn {
+        margin-left: 10%;
+    }
+
+    .menu-arrow-down {
+        margin-left: 16%;
+    }
+}
