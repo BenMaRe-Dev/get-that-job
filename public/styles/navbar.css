@@ -10,21 +10,38 @@ header {
     align-items: center;
     justify-content: center;
     font-family: Nunito;
+    background-color: #ffffff;
 }
 
-.header__logo {
+header a {
+    text-decoration: none;
+}
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.header-elements-left {
+    justify-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header__title {
     font-style: bold;
     line-height: 33px;
     margin-left: 2px;
-    margin-right: 383.58px;
 }
 
-.header-navbar {
-
+.header-elements-right {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-navbar__sections {
@@ -42,7 +59,6 @@ header {
 }
 
 .navbar__section a {
-    text-decoration: none;
     color: #000000;
 }
 
@@ -61,7 +77,12 @@ header {
     color: #000000;
 }
 
-.header__button--registration {
-    
+.sign-in-link {
+    color: #000000;
+}
+
+.header__button--registration, .registration-link {    
     color: #3c2dff;
 }
+
+
