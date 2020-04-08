@@ -5,6 +5,7 @@ footer * {
 
 footer {
   font-family: "Nunito", sans-serif;
+  justify-self: flex-end;
 }
 
 .footer-container {
