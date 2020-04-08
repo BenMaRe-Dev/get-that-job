@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.joblist-description-section {
+  background-color: #3c2dff;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  width: 100%;
+}
+
+.joblist-description-content {
+  max-width: 1023px;
+  margin: auto;
+  padding-top: 54px;
+  padding-bottom: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.joblist-description-text {
+  width: 50%;
+}
+
+.joblist-description-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 20px;
+  padding-top: 9px;
+}
+
+.joblist-description-info {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.joblist-description-items {
+  width: 43.7%;
+}
+
+.joblist-description-items .joblist-position-title,
+.joblist-description-items .joblist-city {
+  color: #4a5568;
+}
+
+.joblist-description-items .new-tag,
+.joblist-description-items .job-item-tags :nth-child(3) {
+  display: none;
+}
+
+.joblist-description-items .job-item-description {
+  width: 60%;
+}
+
+.joblist-description-items .job-list-items {
+    margin-top: 0px;
+}
