@@ -9,22 +9,24 @@
 </head>
 
 <body>
-    <section>
-        <div class="page-title-container">
-            <h1 class="job-pagetitle">Jobs For you</h1>
+    <section class="joblisting-container">
+        <div class="joblisting-title-container">
+            <h1 class="joblisting-pagetitle">Jobs For you</h1>
         </div>
+         <div class="joblisting-items-container">
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+         </div>
+        
 
-        <%= erb :"job-list-item" %>
-        <%= erb :"job-list-item" %>
-        <%= erb :"job-list-item" %>
-        <%= erb :"job-list-item" %>
-        <%= erb :"job-list-item" %>
-        <%= erb :"job-list-item" %>
-        <%= erb :"job-list-item" %>
-        <%= erb :"job-list-item" %>
-
-        <div class="load-btn">
-            <button class="job-load-btn"><a class="job-btn-text" href="#">Load More</a></button>
+        <div class="joblisting-btn">
+            <button class="job-load-btn"><a class="joblisting-btn-text" href="#">Load More</a></button>
     
         </div>
 
