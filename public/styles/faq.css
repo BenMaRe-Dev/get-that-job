@@ -1,0 +1,41 @@
+.faq-section {
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #f7fafc;
+}
+.faq-container {
+  max-width: 1024px;
+  margin-bottom: 50px;
+}
+.faq-title h1 {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: bold;
+}
+.faq-item {
+  padding-right: 126px;
+}
+.faq-item h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #262626;
+}
+.faq-item p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: normal;
+  color: #000000;
+}
+
+/* ######## - mobile - ######### */
+
+@media screen and (max-width: 768px) {
+  .faq-container {
+    max-width: auto;
+    margin-bottom: 55px;
+    margin: auto;
+    padding: 25px 25px 25px 35px;
+  }
+}
