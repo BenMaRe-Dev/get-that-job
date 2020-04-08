@@ -6,6 +6,7 @@ footer * {
 footer {
   font-family: "Nunito", sans-serif;
   justify-self: flex-end;
+  background-color: #ffffff;
 }
 
 .footer-container {
@@ -55,4 +56,11 @@ footer {
   line-height: 19px;
   color: #73738d;
   padding: 9px 0px 8px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    padding: 0px 30px;
+  }
 }
