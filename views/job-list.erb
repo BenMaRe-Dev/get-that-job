@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/job-list.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="joblisting-container">
+        <div class="joblisting-title-container">
+            <h1 class="joblisting-pagetitle">Jobs For you</h1>
+        </div>
+         <div class="joblisting-items-container">
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+            <%= erb :"job-list-item" %>
+         </div>
+        
+
+        <div class="joblisting-btn">
+            <button class="job-load-btn"><a class="joblisting-btn-text" href="#">Load More</a></button>
+    
+        </div>
+
+    </section>
+   
