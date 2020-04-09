@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #F7FAFC;
+}
+.hero-content {
+    max-width: 1023px;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    color: #000000;
+    margin: auto;
+    display: flex;
+}   
+.hero-text {
+    margin-top: 153px;
+    width: 531px;
+    height: 285px;
+}
+
+.hero-title {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 63px;
+    width: 361px;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    width: 531px;
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 18px;
+    background-color: #3C2Dff;
+    border: 2px solid #3C2Dff;
+    border-radius: 4px;
+    padding: 10px 20px;
+
+}
