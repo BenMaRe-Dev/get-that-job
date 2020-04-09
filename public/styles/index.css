@@ -11,11 +11,11 @@
   margin: auto;
   padding-bottom: 75px;
   margin-top: 88px;
+  background-color: #ffffff;
 }
 .testimonials img {
   align-self: center;
   padding-bottom: 8px;
-  background-color: #ffffff;
 }
 .quote {
   display: flex;
@@ -117,6 +117,7 @@
   width: 495px;
   padding-top: 13px;
   margin-bottom: 19px;
+  resize: none;
 }
 .contact-form button {
   height: 60px;
