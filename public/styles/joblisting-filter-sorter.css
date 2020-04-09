@@ -126,12 +126,16 @@
 }
 
 @media screen and (max-width: 768px) {
+    .joblisting-menu-inputs {
+      width: 95%;
+    }
+    
     .joblisting-menu-btn {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .recommended-filter {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .country-list-item {
@@ -144,5 +148,18 @@
 
     .menu-arrow-down {
         margin-left: 16%;
+    }
+
+    .country-list {
+      z-index: 2;
+    }
+
+    .job-search {
+      font-size: 10px;
+      margin-left: 8px;
+    }
+
+    .recommended-btn {
+      margin-left: 5%;
     }
 }

@@ -187,11 +187,19 @@
     .new-tag {
       left: 110%;
       bottom: 30%;
+    
+      width: 25px;
     }
 
     .joblist-item-content {
       display: inline-block;
     }
+
+    .joblisting-pagetitle {
+      margin-left: 2%;
+    }
+
+    
 
 
 
