@@ -155,5 +155,48 @@
     text-transform: uppercase;
   }
 
+  @media screen and (max-width:768px) {
+    .joblist-position-title {
+      font-size: 11px;
+    }
+    .dollar-symbol {
+      display: none;
+    }
+
+    .joblist-company-logo {
+      width: 26px;
+      height: 26px;
+    }
+
+    .joblist-city {
+      font-size: 11px;
+    }
+
+    .joblist-item {
+      margin-left: 6%;
+    }
+
+    .job-item-tags :nth-child(3) {
+      display: none;
+    }
+
+    .joblisting-items-container {
+      width: 90%;
+    }
+
+    .new-tag {
+      left: 110%;
+      bottom: 30%;
+    }
+
+    .joblist-item-content {
+      display: inline-block;
+    }
+
+
+
+
+  }
+
   
   

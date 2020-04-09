@@ -16,16 +16,15 @@
     display: flex;
 }   
 .hero-text {
-    margin-top: 153px;
-    width: 531px;
-    height: 285px;
+    margin-top: 15%;
+    width: 51.9%
 }
 
 .hero-title {
     font-weight: bold;
     font-size: 46px;
     line-height: 63px;
-    width: 361px;
+    width: 68%;
     margin-bottom: 20px;
 }
 
@@ -33,7 +32,7 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 27px;
-    width: 531px;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -47,6 +46,39 @@
     background-color: #3C2Dff;
     border: 2px solid #3C2Dff;
     border-radius: 4px;
-    padding: 10px 20px;
+    padding: 1.5% 3.3%;
+    width: 44.6%;
+}
+
+.hero-img {
+    width: 48.09%;
+}
+
+@media screen and (max-width:768px) {
+
+    .hero {
+        width: 100%;
+    }
+    .hero-content {
+        width: 100%;
+    }
+    .hero-title {
+        font-size: 20px;
+        line-height: 18px;
+        width: 85%;
+    }
+
+    .hero-description {
+        display: none;
+    }
+
+    .hero-btn {
+        font-size: 8px;
+    }
+
+    .hero-text {
+        text-align: center;
+        
+    }
 
 }

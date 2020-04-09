@@ -61,3 +61,44 @@
 .joblist-description-items .job-list-items {
     margin-top: 0px;
 }
+
+@media screen and (max-width:768px) {
+
+  .joblist-description-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .joblist-description-info {
+     display: none;
+  }
+
+  .joblist-description-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .joblist-description-items {
+    width: 70%;
+  }
+  .joblist-description-items .dollar-symbol {
+    display: none;
+  }
+  .joblist-description-items .joblist-company-logo {
+    width: 26px;
+    height: 26px;
+  }
+  
+  .joblist-description-items .joblist-city {
+    font-size: 11px;
+  }
+
+  .joblist-description-items .joblist-item {
+    margin-left: 6%;
+  }
+
+  .joblist-description-items .job-item-tags {
+    margin-left: 0px;
+  }
+
+}
