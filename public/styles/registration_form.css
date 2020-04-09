@@ -7,7 +7,7 @@
     margin-top: 64px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
     padding-right: 32.3%;
     display: flex;
     flex-direction: column;
@@ -70,13 +70,50 @@
     align-items: center;
 }
 
-.radio-item {
+input[type="radio"], input[type="checkbox"] {
+    display: none;
+}
+
+input[type="radio"] + .radio-description:before {
+    border: 1px solid #8c8c8c;
     background-color: #ffffff;
-    color: #3c2dff;
+    content: "\00a0";
+    margin-right: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 14px;
+    padding: 0;
+    vertical-align: middle;
+    width: 15px;
+}
+
+input[type="radio"]:checked + .radio-description:before {
+    background-color: #3c2dff;
+    padding: 1px;
+}
+
+input[type="checkbox"] + .checkbox-description:before {
+    border: 1px solid #8c8c8c;
+    background-color: #ffffff;
+    content: "\00a0";
+    border-radius: 8%;
+    margin-right: 12px;
+    display: inline-block;
+    height: 14px;
+    padding: 0;
+    vertical-align: middle;
+    width: 15px;
+}
+
+input[type="checkbox"]:checked + .checkbox-description:before {
+    border: 1px solid  #3c2dff;
+    background-color: #3c2dff;
+    content: "\2713";
+    color: #ffffff;
+    text-align: center;
 }
 
 .checkbox-description, .radio-description {
-    margin-left: 8px;
     font-size: 14px;
     line-height: 22px;
     color: #595959;
@@ -117,11 +154,33 @@
         align-self: center;
         width: 100%;
         max-width: 411px;
-        padding-right: 25px;
-        padding-left: 25px;
+        margin-right: 25px;
+        margin-left: 25px;
+        padding: 0;
+    }
+
+    .registration-form__title {
+        align-self: center;
+    }
+    
+    .registration-form__input {
+        width: 100%;
+    }
+    
+    .registration-form__input-text {
+        width: 100%;
+    }
+
+    .registration-form__terms {
+        width: 100%;
+    }
+
+    .registration-form__work-preferences {
+        width: 100%;
     }
 
     .registration-form__submit-button {
+        margin-top: 20px;
         align-self: center;
     }
 }
