@@ -1,7 +1,9 @@
 <header>
     <div class="header-container">
-        <div class="header-elements-left"> 
-            <img src="../images/profile.png" class="header__logo" alt="Get-that-job logo">
+        <div class="header-elements-left">
+            <a href="index">
+                <img src="../images/profile.png" class="header__logo" alt="Get-that-job logo">
+            </a> 
             <h2 class="header__title">Get That Job</h2>
         </div>
         <div class="header-elements-right">
@@ -12,8 +14,13 @@
                     <li class="navbar__section"><a href="job_listing">Jobs</a></li>
                 </ul>
             </nav>
-            <button class="header__button header__button--sign-in"><a class="sign-in-link" href="login">Sing in</a></button>
-            <button class="header__button header__button--registration"><a  class="registration-link" href="sign_up">Create an account</a></button>
+            <a href="login">
+                <div class="header__button header__button--sign-in"><a class="sign-in-link" href="login">Sing in</a></div>
+            </a>
+            <a href="sing_up">
+            <div class="header__button header__button--registration"><a  class="registration-link" href="sign_up">Create an account</a></div>
+            </a>
+            
         </div>
     </div>    
 </header>
