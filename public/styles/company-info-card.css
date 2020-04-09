@@ -67,3 +67,14 @@
 .link-jobs a svg {
   vertical-align: middle;
 }
+@media screen and (max-width: 768px) {
+  .company-card-info {
+    height: 333px;
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+}

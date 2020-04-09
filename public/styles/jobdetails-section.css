@@ -118,6 +118,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .job-details {
+    padding: 25px 25px;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
   .job-post-contact {
     flex-flow: column;
     width: 186px;

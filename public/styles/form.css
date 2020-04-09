@@ -1,75 +1,73 @@
-.form-section *{
-    padding: 0;
-    margin: 0;
+.form-section * {
+  padding: 0;
+  margin: 0;
 }
 
 .form-section {
-    margin-top: 132px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 256px;
-    height: auto;
-    font-family: Nunito;
-    margin-bottom: 130px;
+  margin-top: 132px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 256px;
+  height: auto;
+  font-family: Nunito;
+  margin-bottom: auto;
 }
 
 .form__title {
-    align-self: center;
-    margin-bottom: 16px;
-    font-style: bold;
-    font-size: 32px;
-    line-height: 44px;
-    color: #000000;
+  align-self: center;
+  margin-bottom: 16px;
+  font-style: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
 }
 
 .form__label {
-    margin-bottom: 2px;
-    font-size: 14px;
-    line-height: 22px;
-    color: #262626;
+  margin-bottom: 2px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #262626;
 }
 
 .form__input {
-    height: 40px;
-    width: 100%;
-    padding-left: 12px;
-    border: 1px solid #d9d9d9;
-    border-radius: 4px;
-    margin-bottom: 8px;
-    font-size: 16px;
-    line-height: 24px;
-    color: #595959;
-    box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+  padding-left: 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+  box-sizing: border-box;
 }
 
 .form__submit-button {
-    width: 100%;
-    height: 40px;
-    margin-top: 4px;
-    margin-bottom: 8px;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    font-weight: normal;
+  width: 100%;
+  height: 40px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: normal;
 }
 
 .form__submit-link {
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    font-weight: normal;
-
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: normal;
 }
 
 .form__bottom-link {
-    text-decoration: none;
-    align-self: center;
-    font-size: 14px;
-    line-height: 22px;
-    color: #3c2dff;
+  text-decoration: none;
+  align-self: center;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3c2dff;
 }
-

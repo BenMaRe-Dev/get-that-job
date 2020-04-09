@@ -33,6 +33,12 @@
 }
 
 /* ######## - mobile - ######### */
+@media screen and (max-width: 1078px) {
+  .faq-container {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .faq-container {
