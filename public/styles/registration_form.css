@@ -1,0 +1,127 @@
+.registration-form *{
+    padding: 0;
+    margin: 0;
+}
+
+.registration-form {
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 130px;
+    padding-right: 32.3%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+    height: auto;
+    font-family: Nunito;
+}
+
+.registration-form__title {
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.registration-form__input {
+    height: 40px;
+    width: 411px;
+    padding-left: 12px;
+    box-sizing: none;
+    font-family: Nunito;
+}
+
+.registration-form__input-text {
+    
+    width: 411px;
+    padding-left: 12px;
+    padding-top: 8px;
+    height: 127px;
+    resize: none;
+    font-family: Nunito;
+}
+
+.field-description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #8c8c8c;
+    margin-bottom: 12px;
+    margin-top: 2px;
+    width: 100%;
+    max-width: 411px;
+}
+
+.form__label--color {
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.registration-form__work-preferences {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+    width: 411px;
+    flex-wrap: wrap;
+}
+
+.work-preferences__option {
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.radio-item {
+    background-color: #ffffff;
+    color: #3c2dff;
+}
+
+.checkbox-description, .radio-description {
+    margin-left: 8px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+}
+
+.checkbox-description {
+    width: 100%;
+}
+
+.registration-form__terms {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    width: 411px;
+}
+
+
+
+.registration-form__submit-button {
+    width: 143px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #3c2dff;
+    font-size: 16px;
+    line-height: 24px;
+    border: 2px solid;
+}
+
+@media only screen and (max-width: 1078px) {
+    .registration-form{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .registration-form {
+        align-self: center;
+        width: 100%;
+        max-width: 411px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .registration-form__submit-button {
+        align-self: center;
+    }
+}

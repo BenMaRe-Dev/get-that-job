@@ -6,15 +6,17 @@
 }
 .faq-container {
   max-width: 1024px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 .faq-title h1 {
   font-size: 32px;
   line-height: 44px;
   font-weight: bold;
+  padding-top: 75px;
 }
 .faq-item {
   padding-right: 126px;
+  margin: 20px 0px;
 }
 .faq-item h2 {
   font-size: 24px;
@@ -27,6 +29,7 @@
   line-height: 28px;
   font-weight: normal;
   color: #000000;
+  padding-top: 10px;
 }
 
 /* ######## - mobile - ######### */
@@ -36,6 +39,25 @@
     max-width: auto;
     margin-bottom: 55px;
     margin: auto;
-    padding: 25px 25px 25px 35px;
+    padding: 25px 30px;
+  }
+  .faq-title h1 {
+    padding-top: 0px;
+  }
+  .faq-item {
+    padding-right: 10px;
+  }
+  .faq-item h2 {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 600;
+    color: #262626;
+  }
+  .faq-item p {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #000000;
+    padding-top: 10px;
   }
 }

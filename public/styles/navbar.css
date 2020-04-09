@@ -86,3 +86,17 @@ header a {
 }
 
 
+
+@media only screen and (max-width: 1123px) {
+    header{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-navbar {
+        display: none;
+    }
+    
+}
