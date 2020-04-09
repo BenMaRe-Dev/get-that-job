@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.job-details {
+  background-color: #f7fafc;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding-top: 3.5%;
+  padding-bottom: 130px;
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 1024px;
+  margin: 0px auto;
+}
+
+.job-post {
+  max-width: 650px;
+}
+
+.more-jobs-arrow {
+  margin-right: 1.5%;
+  vertical-align: middle;
+}
+
+.more-jobs {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c2dff;
+  display: block;
+  margin-bottom: 27px;
+}
+
+.job-date-post {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.jobpost-position {
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.jobpost-tag {
+  background-color: #3c2dff;
+  border: 1px solid #3c2dff;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 1px 8px;
+}
+
+.jobpost-tags,
+.job-position-description {
+  margin-bottom: 4%;
+}
+
+.jobdetails-list {
+  margin-left: 2.8%;
+  margin-top: 1%;
+  margin-bottom: 4%;
+}
+
+.jobdetails-list-item {
+  margin-bottom: 0.5%;
+}
+.about-company-info {
+  margin-top: 1.5%;
+}
+
+.company-info {
+  margin-bottom: 3%;
+}
+
+.get-job {
+  color: #ffffff;
+  background-color: #3c2dff;
+  padding: 8px 50.5px;
+  text-decoration: none;
+}
+
+.job-post-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.job-share {
+  display: flex;
+  height: 2%;
+  width: 30%;
+}
+
+.job-share-text {
+  margin-right: 5%;
+}
+
+.job-share-social {
+  margin-right: 0.5%;
+}
+
+.job-share:last-child {
+  margin-right: 0%;
+}
+
+@media screen and (max-width: 768px) {
+  .job-details {
+    padding: 25px 25px;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .job-post-contact {
+    flex-flow: column;
+    width: 186px;
+    height: 40px;
+    justify-content: unset;
+    align-items: unset;
+  }
+  .get-job {
+    margin-bottom: 10%;
+  }
+
+  .job-share {
+    width: 194px;
+    height: 24px;
+  }
+}

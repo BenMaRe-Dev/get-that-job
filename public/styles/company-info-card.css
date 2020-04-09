@@ -1,0 +1,80 @@
+.company-card-info {
+  font-family: "Nunito", sans-serif;
+  height: 385px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  align-items: center;
+  margin-left: 124px;
+}
+#company-img {
+  text-align: center;
+  padding-bottom: 12px;
+  margin-top: 40px;
+}
+.company-card-info h1 {
+  font-size: 28px;
+  line-height: 38px;
+  color: #000000;
+  padding-bottom: 12px;
+}
+#ubication-img {
+  height: 13.8px;
+  width: 10.5px;
+  margin-right: 7.5px;
+  vertical-align: middle;
+}
+.company-card-info p {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 4px;
+}
+#redirectioning-img {
+  margin-right: 6.3px;
+  vertical-align: middle;
+}
+.company-card-info p a {
+  color: #000000;
+}
+.company-card-info button {
+  height: 40px;
+  width: 186px;
+  background-color: #3c2dff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 37px;
+  margin-bottom: 16px;
+}
+.link-jobs {
+  height: 56px;
+  width: 186px;
+  border-top: 1px solid #000000;
+  text-align: center;
+}
+.link-jobs a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  line-height: 56px;
+  text-align: center;
+  padding: 16px 0px;
+}
+.link-jobs a svg {
+  vertical-align: middle;
+}
+@media screen and (max-width: 768px) {
+  .company-card-info {
+    height: 333px;
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+}

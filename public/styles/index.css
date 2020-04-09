@@ -10,11 +10,12 @@
   width: 100%;
   margin: auto;
   padding-bottom: 75px;
+  margin-top: 88px;
+  background-color: #ffffff;
 }
 .testimonials img {
   align-self: center;
   padding-bottom: 8px;
-  background-color: #ffffff;
 }
 .quote {
   display: flex;
@@ -79,7 +80,7 @@
   margin-top: 172px;
 }
 .contact-data a,
-p {
+.contact-data p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
@@ -113,9 +114,10 @@ p {
 }
 .contact-form #message {
   height: 150px;
-  width: 495px;
+  max-width: 495px;
   padding-top: 13px;
   margin-bottom: 19px;
+  resize: none;
 }
 .contact-form button {
   height: 60px;
@@ -129,6 +131,34 @@ p {
 .fa-envelope {
   padding-right: 18px;
 }
+@media screen and (max-width: 1078px) {
+  .testimonials {
+    padding: 0px 25px;
+  }
+  .contact-data {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .contact {
+    width: 100%;
+    margin: auto;
+    padding: 60px 25px 85px 25px;
+  }
+
+  .contact-form #email,
+  #name,
+  #message {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #7a7a7a;
+    padding-left: 16px;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 768px) {
   .contact-data {
     margin-top: 10px;
@@ -141,7 +171,7 @@ p {
     flex-direction: column;
     width: 100%;
     margin: auto;
-    padding: 60px 0px 85px 15px;
+    padding: 60px 25px 85px 25px;
     background-color: #f7fafc;
   }
 
@@ -154,5 +184,6 @@ p {
     letter-spacing: 0.4px;
     color: #7a7a7a;
     padding-left: 16px;
+    width: 100%;
   }
 }

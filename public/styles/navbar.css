@@ -86,3 +86,29 @@ header a {
 }
 
 
+
+@media only screen and (max-width: 1078px) {
+    header{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-navbar {
+        display: none;
+    }
+    
+    .header__title {
+        font-size: 20px;
+    }
+
+    .header__button {
+        padding: 3px 5px 3px 5px;
+        border: 2px solid;
+    }
+
+    .registration-link, .sign-in-link {
+        font-size: 10px;
+    }
+}
