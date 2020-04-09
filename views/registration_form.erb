@@ -1,0 +1,44 @@
+<form class="registration-form" action="index" method="POST"> 
+    <h2 class="form__title registration-form__title">Complete your signup</h2>
+    <label class="form__label" for="name">Name</label>
+    <input class="form__input registration-form__input" type="text" name="name" id="name" placeholder="Large input" required>
+    <p class="field-description">Use your real first and last name</p>
+    <label class="form__label" for="profesional_description">Profesional Description</label>
+    <input class="form__input registration-form__input" type="text" name="profesional_description" id="profesional_description" placeholder="e.g Software Engineer, Mememaster, Pokemaster" required>
+    <p class="field-description">Short an specific text about what you do</p>
+    <label class="form__label" for="work_experience">Work Experience</label>
+    <textarea class="form__input registration-form__input-text" form__input registration-form__input type="text" minlength="20" name="work_experience" id="work_experience" placeholder="Worked 6 years in a bitcoin farm until I decided to change my life..." required></textarea>
+    <p class="field-description">Tell us about your work experience, what did you do before joining this top community?</p>
+    <label class="form__label" for="extra_info">Tell us a joke</label>
+    <textarea class="form__input registration-form__input-text" type="text" minlength="20" name="extra_info" id="extra_info" placeholder="Q: Why do chemists enjoy working with ammonia?   
+A: Because it's pretty basic stuff." required></textarea>
+    <p class="field-description">Tells us about your work experience, what did you do before joining this top community?</p>
+    <p class="form__label form__label--color">Work type preference</p>
+    <div class="registration-form__work-preferences">
+        <div class="work-preferences__option">
+            <input class="radio-item" type="radio" name="full-time" id="full-time" value="full-time">
+            <label class="radio-description" for="full-time">Full-Time</label>            
+        </div>
+        <div class="work-preferences__option">
+            <input class="radio-item" type="radio" name="part-time" id="part-time" value="part-time">
+            <label class="radio-description" for="part-time">Part-time</label>            
+        </div>
+        <div class="work-preferences__option">
+            <input class="radio-item" type="radio" name="contract" id="contract" value="contract">
+            <label class="radio-description" for="contract">Contract</label>            
+        </div>
+        <div class="work-preferences__option">
+            <input class="radio-item" type="radio" name="for-free" id="for-free" value="for-free">
+            <label class="radio-description" for="for-free">For Free</label>            
+        </div>
+    </div>
+    <div class="registration-form__terms">
+        <input type="checkbox" name="first-term" id="first-term">
+        <label class="checkbox-description" for="first-term">I wish to receive regular dad jokes in my email</label>
+    </div>
+    <div class="registration-form__terms">
+        <input class="" type="checkbox" name="second-term" id="second-term" required>
+        <label class="checkbox-description" for="second-term">I whish that you sell my data and give me nothing in exchange</label>
+    </div>
+    <input class="registration-form__submit-button" type="submit" value="Create Account">
+</form>
